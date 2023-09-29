@@ -1,57 +1,86 @@
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
+body {
+    background-color: #f4eaea;
+}
+
+header {
+    background-color: white;
+}
+
+.logo {
+    width: 200px;
 }
 
 nav a {
     text-align: center;
-    color: #d9c2a3;
+    color: #302403;
     text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #AC7E0E;
+    color: white;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 
+.home-title {
+    color: #302403;
+}
+
+h4 {
+    color: #302403;
+}
+
 .button-box {
     text-align: center;
+}
+
+.book, .join {
+    background-color: brown;
+    color: #302403;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: burlywood;
+    color: #302403;
+}
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 main section {
     text-align: center;
 }
 
+.icon {
+    width: 80px;
+}
+
 #background {
     height: 725px;
-    background-color: blue;
-}
-
-body {
-    background-color: aqua;
-}
-
-header {
-    background-color:rgba(20,30,13, .7);
-}
-
-nav a:hover {
-    background-color: blueviolet;
-    color: #d9c2a3;
-}
-
-.book, .join {
-    background-color: brown;
-    color: #d9c2a3;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: burlywood;
-    color: #d9c2a3;
+    background-color: yellow;
 }
 
 .msg {
     background-color: coral;
+}
+
+.msg h2 {
+    color: #302403;
+}
+
+.msg p {
+    color: #302403;
 }
 
 footer {
@@ -66,39 +95,11 @@ footer p a:hover {
     text-decoration: underline;
 }  
 
-.home-title {
-    color: #d9c2a3;
-}
-
-h4 {
-    color: #d9c2a3;
-}
-
-.msg h2 {
-    color: #d9c2a3;
-}
-
-.msg p {
-    color: #d9c2a3;
-}
-
 footer a {
-    color: #d9c2a3;
+    color: #302403;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #d9c2a3;
-}
-
-.logo {
-    width: 80px;
-}
-
-.icon {
-    width: 80px;
-}
-
-#hero-img {
-    width: 100%;
+    color: #AC7E0E;
 }
