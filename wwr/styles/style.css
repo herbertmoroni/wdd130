@@ -12,7 +12,8 @@ header {
 
 nav a {
     text-align: center;
-    color: #302403;
+    color: white;
+    background-color: #62451C;
     text-decoration: none;
 }
 
@@ -30,11 +31,12 @@ nav a:hover {
 }
 
 .home-title {
-    color: #302403;
+    color: #62451C;
 }
 
-h4 {
-    color: #302403;
+
+h4, h2 {
+    color: #62451C;
 }
 
 .button-box {
@@ -42,14 +44,14 @@ h4 {
 }
 
 .book, .join {
-    background-color: brown;
-    color: #302403;
+    background-color: #016B00;
+    color: white;
     text-decoration: none;
 }
 
 .book:hover, .join:hover {
-    background-color: burlywood;
-    color: #302403;
+    background-color: #AC7E0E;
+    color: white;
 }
 
 
@@ -68,27 +70,28 @@ main section {
 
 #background {
     height: 725px;
-    background-color: yellow;
+    background-color: #302403;
 }
 
 .msg {
-    background-color: coral;
+    background-color: #016B00;
 }
 
 .msg h2 {
-    color: #302403;
+    color: white;
 }
 
 .msg p {
-    color: #302403;
+    color: white;
 }
 
 footer {
-    background-color: darkgreen;
+    background-color: #62451C;
 }
 
 footer p {
     font-size: 1.2em;
+    color: white;
 }       
 
 footer p a:hover {
@@ -96,10 +99,11 @@ footer p a:hover {
 }  
 
 footer a {
-    color: #302403;
+    color: white;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #AC7E0E;
+    background-color: #AC7E0E;
+    color: white;
 }
