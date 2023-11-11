@@ -117,8 +117,6 @@ h4 {
     color: white;
 }
 
-
-
 main section {
     text-align: center;
 }
@@ -237,6 +235,66 @@ footer .social img {
     padding-top: 15px;
 }
 
+/* ---- Begin Rivers ---- */
+
+.river-title-box {
+    background-color: #016B00;
+    color: white;
+    height: 100px;
+    padding-left: 15px;
+}
+
+.river-title {
+    font-size: 1.8em;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.river-map {
+    font-size: 0.8em;
+    padding-top: 5px;
+}
+
+.river-map a {
+    color: white;
+    text-decoration: none;
+}
+
+.river-map a:hover {
+    background-color: #AC7E0E;
+    color: white;
+}
+
+.river-main{
+    margin: 35px 0 35px 0;
+}
+
+.flex-river-container {
+    display: flex;
+    align-items: center;
+}
+
+.river-card-img {
+    border: 10px solid #62451C;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin: 35px;
+}
+
+.river-card-title {
+    text-align: right;
+}
+
+.river-card-title-alternative {
+    text-align: left;
+}
+
+.river-card-text {
+    text-align: justify;
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -277,4 +335,17 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+    .flex-river-container {
+        flex-direction: column;
+    }
+    .river-reverse-on-mobile {
+        flex-direction: column-reverse; 
+    }
+    .river-card-title {
+        text-align: center;
+    }
+    .river-card-title-alternative {
+        text-align: center;
+    }
+    
 }
