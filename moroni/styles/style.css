@@ -136,7 +136,7 @@ nav {
 }
 
 .home-gallery-card img {
-    max-height: 250px;
+    max-width: 333px;
 }
 
 .home-gallery-card h4 {
