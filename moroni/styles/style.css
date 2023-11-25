@@ -139,8 +139,16 @@ nav {
     max-height: 250px;
 }
 
-.home-gallery-card a {
+.home-gallery-card h4 {
     background-color: #204050;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+    font-weight: 300;
+
+}
+
+.home-gallery-card a {
     color: white;
     text-align: center;
     text-decoration: none;
@@ -150,8 +158,6 @@ nav {
 .home-gallery-card a:hover {
     color: #289CD0;
 }
-
-
 
 footer {
     background-color: #204050;
