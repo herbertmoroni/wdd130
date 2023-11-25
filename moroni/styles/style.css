@@ -108,12 +108,12 @@ nav {
 }
 
 .home-welcome {
+    display: flex;
     margin: 100px 40px 120px 40px;
     font-size: 1.4em;
 }
 
 .home-welcome img {
-    float: right;
     margin-left: 20px;
     margin-bottom: 20px;
 }
