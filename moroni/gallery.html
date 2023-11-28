@@ -7,52 +7,69 @@
     <title>Moroni | Drone Photography Adventures | Gallery</title>
 
     <link rel="stylesheet" href="styles/style.css">
+    
 </head>
 
 <body>
-    <div id="content">
+    <div class="content">
         <header>
-            <a id="logo_link" href="index.html">
-                <img class="logo" src="images/logo-home.png" alt="Moroni Logo">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="gears-tips.html">Gears & Tips</a>
+            <nav class="nav-section">
+                <div class="nav-section-left ">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-section-center">
+                    <div class="logo-area">
+                        <img src="images/logoHome.png" alt="Moroni Logo">
+                    </div>
+                </div>
+                <div class="nav-section-right">
+                    <a href="gallery.html">Gallery</a>
+                    <a href="gears-tips.html">Gears & Tips</a>
+                </div>
             </nav>
+            <div class="nav-divisor"></div>
         </header>
         <div class="title-box">
             <h1>Gallery: A Visual Journey through the Lens and Skies</h1>
-            <div>Welcome to the gallery, where each photograph tells a story and each frame captures the essence of the world from above.</div>
+            <h4>Welcome to the gallery, where each photograph tells a story and each frame captures the essence of the world from above.</h4>
         </div>
+
         <main>
+            
+                <button class="accordion">Drone Photography</button>
+                    <section class="panel">
+                        <h2>Drone Photography</h2>
+                        <div>As a lover of soccer and a proud father of three beautiful daughters, I've had the opportunity to capture some incredible moments and landscapes that hold a special place in my heart. In this section, you'll find a collection of my best drone photographs, each accompanied by a description or story that adds depth to the visual experience.</div>
+                        <div class="gallery-grid">
+                            <a href=""><img class="icon" src="images/gallery1.jpg" alt=""></a>
+                            <a href=""><img class="icon" src="images/gallery2.jpg" alt=""></a>
+                            <a href=""><img class="icon" src="images/gallery3.jpg" alt=""></a>
+                            <a href=""><img class="icon" src="images/gallery4.jpg" alt=""></a>
+                            <a href=""><img class="icon" src="images/gallery5.jpg" alt=""></a>
+                            <a href=""><img class="icon" src="images/gallery6.jpg" alt=""></a>
+                            <a href=""><img class="icon" src="images/gallery7.jpg" alt=""></a>
+                            <a href=""><img class="icon" src="images/gallery8.jpg" alt=""></a>
+                        </div>
+                    </section>
+
+            
             <section>
-                <h2>Drone Photography</h2>
-                <div>As a lover of soccer and a proud father of three beautiful daughters, I've had the opportunity to capture some incredible moments and landscapes that hold a special place in my heart. In this section, you'll find a collection of my best drone photographs, each accompanied by a description or story that adds depth to the visual experience.</div>
-                <div class="gallery-grid">
-                    <a href=""><img class="icon" src="images/gallery1.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/gallery2.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/gallery3.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/gallery4.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/gallery5.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/gallery6.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/gallery7.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/gallery8.jpg" alt=""></a>
+                <button class="accordion">FPV Racing</button>
+                <div class="panel">
+                    <h2>FPV Racing</h2>
+                    <div>FPV racing is not just about speed and competition; it's about the community, the thrill, and the sheer joy of flying. In this section, you'll find dynamic shots from my FPV racing adventures, complete with insights into the racing world and the excitement that comes with it.</div>
+                    <div class="gallery-grid">
+                        <a href=""><img class="icon" src="images/fpv1.jpg" alt=""></a>
+                        <a href=""><img class="icon" src="images/fpv2.jpg" alt=""></a>
+                        <a href=""><img class="icon" src="images/fpv3.jpg" alt=""></a>
+                        <a href=""><img class="icon" src="images/fpv4.jpg" alt=""></a>
+                        <a href=""><img class="icon" src="images/fpv5.jpg" alt=""></a>
+                        <a href=""><img class="icon" src="images/fpv6.jpg" alt=""></a>
+                        <a href=""><img class="icon" src="images/fpv7.jpg" alt=""></a>
+                        <a href=""><img class="icon" src="images/fpv8.jpg" alt=""></a>
+                    </div>
                 </div>
-            </section>
-            <section>
-                <h2>FPV Racing</h2>
-                <div>FPV racing is not just about speed and competition; it's about the community, the thrill, and the sheer joy of flying. In this section, you'll find dynamic shots from my FPV racing adventures, complete with insights into the racing world and the excitement that comes with it.</div>
-                <div class="gallery-grid">
-                    <a href=""><img class="icon" src="images/fpv1.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/fpv2.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/fpv3.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/fpv4.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/fpv5.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/fpv6.png" alt=""></a>
-                    <a href=""><img class="icon" src="images/fpv7.jpg" alt=""></a>
-                    <a href=""><img class="icon" src="images/fpv8.jpg" alt=""></a>
-                </div>
+                
             </section>        
         </main>
         <footer>
@@ -67,6 +84,7 @@
             </div>
         </footer>
     </div>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
