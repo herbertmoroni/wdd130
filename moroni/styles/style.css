@@ -214,8 +214,29 @@ footer .social img {
  }
 
 
+ /* Style for gears and tips  */
 
+ .post {
+    margin: auto;
+    margin: 40px;
+    background: #fff;
+    box-shadow: 0px 14px 80px rgba(58, 66, 219, 0.2);
+    padding: 25px;
+    border-radius: 25px;
+    display: flex;
+ }
 
+ .post img {
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    background-image: linear-gradient(147deg, rgb(57, 175, 254) 0%, #289CD0 74%);
+    box-shadow: 4px 13px 30px 1px rgba(49, 102, 216, 0.2);
+    border-radius: 20px;
+    margin-left: 100px;
+
+ }
 
 
 /* Style the buttons that are used to open and close the accordion panel */
