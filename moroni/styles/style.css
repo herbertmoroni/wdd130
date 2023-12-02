@@ -245,7 +245,8 @@ footer .social img {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .panel.open{
